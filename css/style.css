@@ -1,0 +1,869 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.lists .list-items{
+    display: inline-block;
+}
+
+.list-items .lists-link{
+font-family: TT Hoves;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.2em;
+color: black;
+padding: 20px;
+}
+
+.list-items .lists-link:hover{
+    text-decoration: none;
+}
+
+.header{
+    padding-top: 10px;
+}
+
+.architect-img-div{
+    display: flex;
+}
+
+.project-nortown-main{
+font-family:TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+color:#BDBDBD;
+}
+
+.project-nortown-sub{
+font-family: TT Hoves;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.project-heading{
+padding-top: 200px;
+text-align: center;
+}
+
+.arrow-box{
+    display: flex;
+    flex-direction:row;
+    padding-top: 90px;
+    }
+
+.arrow-left-div{
+ border: 1px solid rgba(242, 242, 242, 1);
+height: 53px;
+width: 53px;
+left: 0px;
+top: 0px;
+border-radius:0px;
+align-self: center;
+justify-content: center;
+text-align: center;
+}
+
+.arrow-right-div{
+    height: 53px;
+    width: 53px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    border: 1px solid rgba(242, 242, 242, 1);
+    background: rgba(249, 249, 249, 1);
+    margin-left:40px; 
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.arrow-left{
+    padding-top:15px;
+}
+
+.arrow-right{
+    padding-top:15px;
+}
+
+.nurtown-building{
+width: 100%;
+display: block;
+}
+
+.nurtown-image{
+    width: 100%;
+    display: block;
+    height: 700px;
+}
+.nurtown-building-button{
+    background: rgba(255, 255, 255, 1);
+    justify-content: center;
+    border: 1px solid green;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    width: 222px;
+    height: 71px;
+    left:15px;
+    background: #FFFFFF;
+    z-index: 99999;
+    bottom: 0px;
+}
+.third-section{
+    background: rgba(251, 251, 251, 1);
+    margin-top: 120px;
+}
+
+.sect3-first-img{
+    padding-top: 30px;
+    height: 265px;
+width:100%;
+display: block;
+border-radius: 0px;
+}
+.sect3-second-img{
+    padding-top: 30px;
+    height: 140px;
+width: 100%;
+border-radius: 0px;
+display: block;
+}
+.sect3-third-img{
+    padding-top: 60px;
+    width: 100%;
+    display: block;
+    height: 380px;
+}
+.third-section-text{
+    padding-top: 30px;
+}
+.third-section-button{
+height: 71px;
+width: 222px;
+padding-top: 20px;
+border-radius: 0px;
+background: rgba(255, 255, 255, 1);
+
+}
+.third-section-paragraph{
+padding-top:20px;
+font-family: TT Hoves;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.numbering-tab{
+    padding-top: 94px;
+}
+.pagination-number{
+font-family: TT Hoves;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 5px;
+text-align: left; 
+color: #BDBDBD;
+}
+.third-section-btn-text{
+    text-align: center;
+    font-family: TT Hoves;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.2em;
+}
+
+/* styling of 4th row*/
+.fourth-row-num1{
+height: 140px;
+width: 104px;
+font-family: SF Pro Display;
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: 239px;
+letter-spacing: 0em;
+color: rgba(242, 242, 242, 1);
+margin-top:-40px;
+/* color:red; */
+}
+
+.fourth-row-paragraph{
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+height: 144px;
+width: 279px;
+}
+
+.fourth-row-paragraph-two{
+    height: 144px;
+width: 420px;
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.fourth-row-button{
+    text-align: center;
+}
+
+/* styling of 4th row end*/
+/* styling of 5th row start*/
+.fifth-row-heading{
+    height: 64px;
+width: 427px;
+font-family: TT Hoves;
+font-size: 64px;
+font-style: normal;
+font-weight: 300;
+line-height: 64px;
+letter-spacing: 0em;
+color: rgba(189,189,189,1);
+margin-bottom: 60px;
+
+}
+
+.fifth-sect-first-img{
+height: 255px;
+width:100%;
+display: block;
+}
+
+.fifth-div-contents{
+    position: absolute;
+    top: 24%;
+    right: 30%;
+    display: none;
+}
+.fifth-sect-first-img:hover .fifth-div-contents{
+    display: block;
+}
+.fifth-sect-second-img{
+    display: block;
+    width: 100%;
+    height: 255px;
+}
+.fifth-sect-first-heading{
+    color: rgba(255, 255, 255, 1);
+    display: block;
+
+}
+.fifth-sect-heading-main{
+display: block;
+}
+.fifth-sect-arrow{
+    display: block;
+    color: rgba(255, 255, 255, 1);
+}
+
+.fifth-sect-second-row-div{
+    margin-top: 30px;
+}
+
+.fifth-sect-second-row-first-img{
+height: 255px;
+width: 100%;
+display: block;
+}
+.fifth-sect-second-row-second-img{
+height: 255px;
+width: 100%;
+display: block;
+}
+.fifth-sect-second-row-third-img{
+height: 255px;
+width:100%;
+display:block;
+}
+/* styling of 5th row start*/
+/* styling of 6th row start*/
+.sixth-row-button{
+padding: 30px;
+justify-content: end;
+display: flex;
+
+
+}
+.fifth-sect-second-row-arrow{
+    font-family: TT Hoves;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    height: 71px;
+    width: 222px;
+    border-radius: 0px;
+    justify-content:center;
+    background: rgba(51, 51, 51, 1);
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+}
+
+.social-media-img{
+    color:#FFFFFF;
+}
+.white-back{
+    background-color: #FFFFFF;
+    height: 18.023000717163086px;
+    width: 19.976999282836914px;
+    display: inline-block;
+    color:rgb(46, 43, 43);
+    text-align: center;
+    font-weight: 700;
+    font-family: TT hoves;
+    /* margin-top: 10px; */
+}
+/* styling of 6th row end*/
+/* styling of 7th row start*/
+.seventh-row-form-heading{
+    height: 64px;
+    width: 521px;
+    font-family: TT Hoves;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.seventh-row-form input{
+height: 46px;
+width: 100%;
+background: rgba(243, 243, 243, 1);
+display: block;
+margin: 10px;
+border: none;
+padding: 5px;
+margin-left:21px;
+margin-top: 22px;
+
+}
+
+
+.form-paragraph{
+    height: 34px;
+    width: 331px;
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-left: 75px;
+}
+
+.seventh-row-form-img{
+    width: 100%;
+    display: block;
+    height: 441px;
+}
+
+.seventh-row-form .address{
+    height: 147px;
+    width: 100%;
+    display: block;
+}
+.address::placeholder{
+padding-top:-10%;
+color:#8D8D8D;
+position:absolute;
+top:14px;
+font-family: TT Hoves;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.04em;
+text-align: left;
+}
+
+.mark-sign{
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    padding-top: 69px;
+    padding-bottom: 54px;
+}
+.form-paragraph-div{
+    padding-top: 22px;
+}
+
+/* styling of 7th row end*/
+
+/* footer styling start here */
+.footer{
+    background-color:rgba(44, 44, 44, 1);
+}
+
+.footer{
+    padding-top:58px;
+    margin-top: 120px;
+}
+
+.footer-logo{
+height: 94px;
+width: 145px;
+
+}
+
+.footer-lists .footer-lists-items{
+list-style-type: none;
+padding: 10px;
+}
+.footer-lists-heading{
+    color:#FFFFFF;
+    height: 20px;
+    width: 103px;
+    font-family: TT Hoves;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10%;
+
+}
+.footer-lists .footer-lists-link{
+    color:#FFFFFF;
+       
+}
+.footer-lists .footer-lists-link:hover{
+    text-decoration: none;
+}
+
+.address-contents{
+    display: flex;
+}
+.address-logo{
+    height: 16px;
+    width: 11px;
+    
+}
+.address-text{
+    height: 72px;
+    width: 314px;
+    color: #FFFFFF;
+    padding: 19px;
+    margin-top: -10%;
+
+}
+.phone-contents{
+    display: flex;
+    padding-top:32px;
+}
+.phone-logo{
+    height: 15.999984741210938px;
+width: 16.01043701171875px;
+
+}
+.phone-number{
+    color:#FFFFFF;
+    padding: 19px;
+    margin-top: -10%;
+}
+.mail-contents{
+    display: flex;
+    padding-top:32px;
+}
+.mail-logo{
+    height: 11px;
+    width: 16px;
+    
+}
+.email-address{
+height: 24px;
+width: 181px;
+padding: 19px;
+margin-top: -10%;
+color:#FFFFFF;
+}
+.footer-fourth-column-heading{
+height: 20px;
+width: 140px;
+left: 1px;
+top: 0px;
+}
+.copyright-text{
+height: 22px;
+width: 258px;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+color:#FFFFFF;
+justify-content: center;
+margin:auto;
+padding-top:24px;
+padding-bottom:24px
+}
+
+.copy-right-div{
+    padding-bottom:24px;
+}
+.number-text-div{
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.number1-contents,.number2-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.number1-contents{
+    /* width: 100%; */
+}
+.number2-contents{
+    /* width: 100%; */
+}
+.num1{
+height: 140px;
+width: 104px;
+font-family: SF Pro Display;
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: 239px;
+letter-spacing: 0em;
+color: rgba(242, 242, 242, 1);
+margin-top: -45px;
+}
+.text1{
+height: 144px;
+width: 279px;
+font-family: TT Hoves;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+}
+.num2{
+height: 140px;
+width: 104px;
+font-family: SF Pro Display;
+font-size: 200px;
+font-style: normal;
+font-weight: 900;
+line-height: 239px;
+letter-spacing: 0em;
+color: rgba(242, 242, 242, 1);
+margin-top: -45px;
+
+}
+.text2{
+    height: 144px;
+    width: 420px;
+    font-family: TT Hoves;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+
+    
+}
+.instagram{
+    color: #fff;
+}
+#myNav,.hamburger-icon{
+    display: none;
+}
+
+/* footer styling ends here */
+/*======================= media queries start here ============================*/
+@media  screen and (max-width:1024px){
+    .fourth-row-paragraph{
+        font-size: 17px;
+    }
+    .fourth-row-paragraph-two{
+        width: 300px;
+        font-size: 17px;
+
+    }
+    .fifth-row-heading{
+        font-size: 36px;
+    }
+
+.seventh-row-form-heading{
+    font-size: 36px;
+}
+.form-filling-div{
+    margin:30px;
+}
+.mark-sign{
+    left: 13%;
+}
+.address-text{
+    height: 120px;
+    width: 100%;
+    margin-top:-15%;
+}
+.phone-contents{
+    padding-top: 40px;
+}
+.phone-number{
+    margin-top: -11%;
+}
+.email-address{
+    margin-top: -12%;
+}
+}
+
+@media  screen and (max-width:768px){
+    .fourth-row-paragraph{
+        width: 246px;
+    }
+    .fourth-row-paragraph-two{
+        width: 270px
+    }
+}
+@media  screen and (max-width:767px){
+ /* styling of full overlay nav start here */
+ .architects-logo{
+    position: absolute;
+    left: 40%;
+}
+.hamburger-icon{
+    top:3%;
+    display:block;
+    position:absolute;
+    right:7%;
+}
+#myNav{
+    display: block;
+}
+.lists{
+    display:none;
+}
+
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(44, 44, 44, 1);
+    background-color:rgba(44, 44, 44, 1);
+    overflow-x: hidden;
+    transition: 0.5s;;
+  } 
+  
+  .overlay-content {
+    position: relative;
+    top: 12%;
+    width: 30%;
+    text-align: center;
+    margin-top:-36px;
+    z-index: 99999;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .closeNav{
+    position: absolute;
+    top: 8%;
+    right: 45px;
+  }
+
+  .hamburger-div{
+      display: none;
+  }
+
+/* styling of full overlay nav stop here */
+    
+    .mobile-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project-heading{
+        padding-top: 40px;
+    }
+    .arrow-box{
+        padding-top: 20px;
+    }
+    .numbering-tab{
+        padding-top: 30px;
+    }
+    .nurtown-image{
+        height: 380px;
+    }
+    .num1{
+        font-size: 120px;
+    }
+    .text1{
+        font-size: 18px; 
+       
+    }
+    .num2{
+        font-size: 120px;
+    }
+    .text2{
+                font-size: 18px;
+      
+    }
+.fifth-sect-second-img{
+  margin-top: 10%;
+}
+.fifth-sect-second-row-second-img{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.footer-lists-heading{
+    margin-top: 5%;
+}
+.footer-list-div{
+margin-top: -10%;
+border:1px solid green;
+
+}
+.contact-contents{
+    margin-top: -5%;
+    border:1px solid yellow
+}
+.address-text{
+    margin-top: -5%;
+    width: 200px;
+}
+.phone-contents{
+    padding-top: 0px;
+}
+.phone-number{
+    margin-top: -4%;
+}
+.mail-contents{
+    padding-top: 0px;
+}
+
+.email-address{
+    margin-top: -5%;
+}
+.social-medias{
+    position:absolute;
+    top:57px;
+    left:10%;
+}
+}
+@media screen and (max-width:600px){
+    .text1{
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .text2{
+        width: 356px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:585px){
+    .number2-contents{
+        border: 1px solid green;
+    }
+    .text2{
+        border: 1px solid ;
+    }
+}
+
+@media screen and (max-width:726px){
+    .form-filling-div{
+        display: none;
+    }
+    .text1{
+        border: 1px solid yellow;
+    }
+    .text2{
+       border: 1px solid green;
+       
+    }
+    .number1-contents{
+            border:2px solid green;
+    }
+    .number2-contents{
+        border:1px solid red;
+    }
+    img{
+        border:2px solid purple;
+        display: none;
+    }
+}
+@media screen and (max-width:425px){
+    .text1{
+        line-height: 33px;
+        border: 1px solid green;
+    }
+    .text2{
+        /* width: 256px; */
+    }
+    .form-filling-div{
+        /* display: none; */
+    }
+    .number-text-div{
+        /* display: none; */
+    }
+  
+}
+@media  screen and (max-width:375px){
+    
+}
+@media  screen and (max-width:320px){
+    
+}
+
+/* media queries ends here */
