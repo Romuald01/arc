@@ -546,7 +546,6 @@ padding-bottom:24px
 }
 .number-text-div{
     display: flex;
-    border: 1px solid green;
     justify-content: space-between;
     margin-top: 60px;
     margin-bottom: 120px;
@@ -578,6 +577,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 36px;
 letter-spacing: 0em;
+text-align: justify;
 }
 .num2{
 height: 140px;
@@ -601,8 +601,7 @@ margin-top: -45px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
-
-    
+    text-align: justify;
 }
 .instagram{
     color: #fff;
@@ -665,7 +664,7 @@ margin-top: -45px;
     position: absolute;
     left: 5%;
     height:60px;
-    top: -3%;
+    /* /* top: -3%; */
 }
 .hamburger-icon{
     top:3%;
@@ -678,7 +677,6 @@ margin-top: -45px;
 }
 .lists{
     display:none;
-    border:1px solid red;
 }
 
 .overlay{
@@ -727,13 +725,11 @@ margin-top: -45px;
   }
 
 /* styling of full overlay nav stop here */
-    
-    /* .mobile-header{
-        display: flex;
-        justify-content: space-between;
-    } */
     .project-heading{
         padding-top: 40px;
+    }
+    .third-section-btn-text{
+        font-size: 24px;
     }
     .arrow-box{
         padding-top: 20px;
@@ -749,13 +745,12 @@ margin-top: -45px;
     }
     .text1{
         font-size: 18px; 
-       
     }
     .num2{
         font-size: 120px;
     }
     .text2{
-                font-size: 18px;
+        font-size: 18px;
       
     }
 .fifth-sect-second-img{
@@ -770,23 +765,25 @@ margin-bottom: 10%;
 }
 .footer-list-div{
 margin-top: -10%;
-border:1px solid green;
-
 }
+
 .contact-contents{
     margin-top: -5%;
-    border:1px solid yellow
 }
+
 .address-text{
     margin-top: -5%;
     width: 200px;
 }
+
 .phone-contents{
     padding-top: 0px;
 }
+
 .phone-number{
     margin-top: -4%;
 }
+
 .mail-contents{
     padding-top: 0px;
 }
@@ -800,17 +797,6 @@ border:1px solid green;
     left:10%;
 }
 }
-@media screen and (max-width:727px){
-    .header{
-        border:1px solid red ;
-    }
-    .header-logo{
-        border: 1px solid maroon;
-    }
-    .header-logo{
-        /* margin-top: 10%; */
-    }
-}
 @media screen and (max-width:600px){
     .text1{
         line-height: 50px;
@@ -821,60 +807,41 @@ border:1px solid green;
         font-size: 18px;
     }
 }
-@media screen and (max-width:585px){
-    .number2-contents{
-        border: 1px solid green;
-    }
-    .text2{
-        border: 1px solid ;
-    }
-}
 
 @media screen and (max-width:726px){
-    .form-filling-div{
-        display: none;
-    }
-    .text1{
-        border: 1px solid yellow;
-    }
-    .text2{
-       border: 1px solid green;
-       
-    }
     .number1-contents{
-            border:2px solid green;
             width: 100%;
     }
     .number2-contents{
-        border:1px solid red;
         width: 100%;
     }
-    img{
-        border:2px solid purple;
-        display: none;
-    }
-
 }
+@media screen and (max-width:726px){
+        .text1{
+            line-height: 35px;
+            font-size: 16px;
+        }
+        .text2{
+            font-size: 16px;
+        }
+}
+
+
 @media screen and (max-width:552px){
     .navigation{
-        border: 1px solid green;
         height: 70px;
-        /* display: none; */
     }
-   
+ 
     .logo-box{
-        border:1px solid yellow;
         width: 100%;
     }
     .seventh-row-form-heading{
         width: 295px;
-        border: 1px solid red;
     }
     }
     @media screen and (max-width:458px){
       .fifth-row-heading{
           width: 243px;
-          border:1px solid green ;
       }
     }
     @media screen and (max-width:326px){
@@ -883,22 +850,100 @@ border:1px solid green;
             width: 200px;
         }
     }
+    @media  screen and (max-width:451px){
+        .phone-number{
+           margin-top: -6%;
+        }
+        .social-medias{
+            margin-top: -3%;
+        }
+        }
 
 @media screen and (max-width:425px){
+    .hamburger-icon{
+        margin-top: 6%;
+    }
+    .num1,.num2{
+        font-size: 60px;
+    }
     .text1{
         line-height: 33px;
-        border: 1px solid green;
+    }
+    .form-paragraph{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .mark-sign{
+        left:18%;
+    }
+    .seventh-row-form-img{
+        margin-top: 10%;
     }
     .instagram{
         margin-top: 5%;
     }
+    .email-address{
+        margin-top: -8%;
+    }
+    .social-medias{
+        margin-top: 0px;
+    }
+    .address-text{
+        margin-top: -7%;
+    }
+    .copy-right-div{
+        margin-top: 24px;
+    }
   
 }
+@media  screen and (max-width:410px){
+    .text1,.text2{
+        font-size: 14px;
+    }
+    }
+    
 @media  screen and (max-width:375px){
+    .header-logo{
+        height: 50px;
+    }
+    .hamburger-icon{
+        margin-top: 7% !important;
+    }
+    .third-section-heading{
+        font-size: 24px;
+
+    }
+    .fourth-row-heading{
+        font-size: 24px;
+        width: 212px;
+    }
+    .text1{
+        font-size: 11px;
+    }
+    .text2{
+        font-size: 11px;
     
 }
-@media  screen and (max-width:320px){
-    
+.seventh-row-form-heading{
+    font-size: 24px;
+    width: 197px;
 }
+}
+
+ @media  screen and (max-width:320px){
+    .email-address{
+        margin-top: -8%;
+    }
+    .social-medias{
+        margin-top: -5%;
+    }
+    .address-text,.phone-number{
+        margin-top: -8%;
+    }    
+    .email-address{
+        margin-top: -10%;
+    }
+} 
+
 
 /* media queries ends here */
