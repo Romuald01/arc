@@ -556,12 +556,7 @@ padding-bottom:24px
     justify-content: space-between;
     padding: 50px;
 }
-.number1-contents{
-    /* width: 100%; */
-}
-.number2-contents{
-    /* width: 100%; */
-}
+
 .num1{
 height: 140px;
 width: 104px;
@@ -668,7 +663,9 @@ margin-top: -45px;
  /* styling of full overlay nav start here */
  .architects-logo{
     position: absolute;
-    left: 40%;
+    left: 5%;
+    height:60px;
+    top: -3%;
 }
 .hamburger-icon{
     top:3%;
@@ -681,6 +678,7 @@ margin-top: -45px;
 }
 .lists{
     display:none;
+    border:1px solid red;
 }
 
 .overlay{
@@ -698,7 +696,7 @@ margin-top: -45px;
   
   .overlay-content {
     position: relative;
-    top: 12%;
+    top: 33%;
     width: 30%;
     text-align: center;
     margin-top:-36px;
@@ -708,7 +706,7 @@ margin-top: -45px;
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
     color: hsl(0, 0%, 100%);
     display: block;
     transition: 0.3s;
@@ -730,10 +728,10 @@ margin-top: -45px;
 
 /* styling of full overlay nav stop here */
     
-    .mobile-header{
+    /* .mobile-header{
         display: flex;
         justify-content: space-between;
-    }
+    } */
     .project-heading{
         padding-top: 40px;
     }
@@ -802,6 +800,17 @@ border:1px solid green;
     left:10%;
 }
 }
+@media screen and (max-width:727px){
+    .header{
+        border:1px solid red ;
+    }
+    .header-logo{
+        border: 1px solid maroon;
+    }
+    .header-logo{
+        /* margin-top: 10%; */
+    }
+}
 @media screen and (max-width:600px){
     .text1{
         line-height: 50px;
@@ -834,28 +843,54 @@ border:1px solid green;
     }
     .number1-contents{
             border:2px solid green;
+            width: 100%;
     }
     .number2-contents{
         border:1px solid red;
+        width: 100%;
     }
     img{
         border:2px solid purple;
         display: none;
     }
+
 }
+@media screen and (max-width:552px){
+    .navigation{
+        border: 1px solid green;
+        height: 70px;
+        /* display: none; */
+    }
+   
+    .logo-box{
+        border:1px solid yellow;
+        width: 100%;
+    }
+    .seventh-row-form-heading{
+        width: 295px;
+        border: 1px solid red;
+    }
+    }
+    @media screen and (max-width:458px){
+      .fifth-row-heading{
+          width: 243px;
+          border:1px solid green ;
+      }
+    }
+    @media screen and (max-width:326px){
+        .seventh-row-form-heading{
+            font-size: 24px;
+            width: 200px;
+        }
+    }
+
 @media screen and (max-width:425px){
     .text1{
         line-height: 33px;
         border: 1px solid green;
     }
-    .text2{
-        /* width: 256px; */
-    }
-    .form-filling-div{
-        /* display: none; */
-    }
-    .number-text-div{
-        /* display: none; */
+    .instagram{
+        margin-top: 5%;
     }
   
 }
