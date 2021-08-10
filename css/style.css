@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
 }
+
+.no-scroll{
+    /* overflow: hidden; */
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -117,22 +122,33 @@ display: block;
 .nurtown-building-button{
     background: rgba(255, 255, 255, 1);
     justify-content: center;
-    border: 1px solid green;
     text-align: center;
     position: absolute;
     align-items: center;
     display: flex;
     width: 222px;
     height: 71px;
-    left:15px;
+    left:21px;
     background: #FFFFFF;
     z-index: 99999;
-    bottom: 0px;
+    bottom: 4px;
+    box-shadow: rgb(109, 105, 105);
+
+}
+.nurtown-text{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:6%;
+
 }
 .third-section{
     background: rgba(251, 251, 251, 1);
     margin-top: 120px;
 }
+
 
 .sect3-first-img{
     padding-top: 30px;
@@ -258,37 +274,80 @@ margin-bottom: 60px;
 
 }
 
-.fifth-sect-first-img{
-height: 255px;
-width:100%;
-display: block;
-}
-
-.fifth-div-contents{
-    position: absolute;
-    top: 24%;
-    right: 30%;
-    display: none;
-}
 .fifth-sect-first-img:hover .fifth-div-contents{
     display: block;
 }
-.fifth-sect-second-img{
-    display: block;
-    width: 100%;
-    height: 255px;
-}
-.fifth-sect-first-heading{
-    color: rgba(255, 255, 255, 1);
-    display: block;
 
+.fifth-sect-first-img-div{
+    background-image: url("../images/image 15.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 255px;
+    width:100%; 
+    display: block;
 }
+
+.fifth-sect-second-img-div{
+    background-image: url("../images/image 15.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 255px;
+    width:100%;
+    display: block;
+}
+
+.fifth-div-contents{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding-top: 10%;
+}
+
+.fifth-sect-first-img-div:hover{
+    background:rgba(44, 44, 44, 0.8);
+}
+
+.fifth-sect-second-img-div:hover{
+    background:rgba(44, 44, 44, 0.8);
+}
+
+.fifth-sect-first-heading{
+    color: rgba(109, 105, 105);
+    display: block;
+}
+
+.fifth-sect-first-img-div, .fifth-sect-second-img-div{
+margin: 0px;
+}
+
+.fifth-sect-first-img-div:hover .fifth-sect-first-heading{
+    color: white; 
+}
+
+.fifth-sect-first-img-div:hover .fifth-sect-arrow{
+    color: white; 
+}
+
+.fifth-sect-second-img-div:hover .fifth-sect-first-heading{
+color: white;
+}
+
+.fifth-sect-second-img-div:hover .fifth-sect-arrow{
+    color: white;
+}
+
 .fifth-sect-heading-main{
 display: block;
 }
+
 .fifth-sect-arrow{
     display: block;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(109, 105, 105);
+    margin-left: -23%;
+    font-weight:700;
 }
 
 .fifth-sect-second-row-div{
@@ -370,10 +429,10 @@ height: 46px;
 width: 100%;
 background: rgba(243, 243, 243, 1);
 display: block;
-margin: 10px;
+/* margin: 10px; */
 border: none;
 padding: 5px;
-margin-left:21px;
+/* margin-left:21px; */
 margin-top: 22px;
 
 }
@@ -683,7 +742,7 @@ margin-top: -45px;
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index:999;
     top: 0;
     left: 0;
     background-color:rgba(44, 44, 44, 1);
@@ -743,6 +802,9 @@ margin-top: -45px;
     .num1{
         font-size: 120px;
     }
+    .fifth-row-heading{
+      margin-bottom: 0px;
+    }
     .text1{
         font-size: 18px; 
     }
@@ -759,6 +821,17 @@ margin-top: -45px;
 .fifth-sect-second-row-second-img{
 margin-top: 10%;
 margin-bottom: 10%;
+}
+.form-filling-div{
+    display: flex;
+}
+.seventh-row-image{
+    order: -1;
+}
+.seventh-row-form-img{
+    height: 250px;
+    margin-top: 10%;
+
 }
 .footer-lists-heading{
     margin-top: 5%;
@@ -805,6 +878,24 @@ margin-top: -10%;
     .text2{
         width: 356px;
         font-size: 18px;
+    }
+    .fifth-sect-second-row-arrow{
+        width: 160px;
+        height: 37px;
+    }
+    .third-section-button{
+        height: 42px;
+        width: 154px;
+    }
+    .third-section-btn-text{
+        font-size: 18px;
+        margin-top: -4%;
+    }
+    .number-text-div{
+        margin-top: -5%;
+    }
+    .number2-contents{
+        margin-top: -15%;
     }
 }
 
@@ -863,6 +954,13 @@ margin-top: -10%;
     .hamburger-icon{
         margin-top: 6%;
     }
+    .nurtown-building-button{
+        width: 147px;
+        height: 37px;
+    }
+   .overlay-content{
+    top: 27%;
+   }
     .num1,.num2{
         font-size: 60px;
     }
@@ -924,6 +1022,9 @@ margin-top: -10%;
         font-size: 11px;
     
 }
+.number2-contents{
+    margin-bottom: -25%;
+}
 .seventh-row-form-heading{
     font-size: 24px;
     width: 205px;
@@ -934,6 +1035,9 @@ margin-top: -10%;
 }
 
  @media  screen and (max-width:320px){
+    .seventh-row-form-img{
+        height: 200px;
+    }
     .email-address{
         margin-top: -8%;
     }
