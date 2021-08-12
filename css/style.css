@@ -675,7 +675,6 @@ margin-top: -45px;
 }
 /* gallery styling start here */
 .gallery-headings-div{
-    border: 1px solid yellow;
     margin-top: 92.14px;
     width: 300px;
 }
@@ -691,12 +690,10 @@ margin-top: -45px;
     display: block;   
     color:rgba(189, 189, 189, 1);
     text-align: left;
-    border:1px solid red;
 }
 
 .gallery-heading-sub{
     height: 64px;
-    border:1px solid pink;
     width: 453px;
     font-family: TT Hoves;
     font-size: 64px;
@@ -719,7 +716,6 @@ margin-top: -45px;
     margin: 9px;
     height: 260px;
     width: 210px;
-    border: 1px solid green;
 }
 .gallery-container{
     margin-top: 60px;
@@ -730,7 +726,6 @@ margin-top: -45px;
 .building1-box{
 height: 260px;
 width: 210px;
-border: 1px solid green;
 }
 .building1{
     width: 100%;
@@ -738,11 +733,12 @@ border: 1px solid green;
     height: 140px;
 }
 .building2,.building3,.building4,.building5,
-.building6,.building7,.building8,.building9.building10{
+.building6,.building7,.building8,.building9,.building10{
     width: 100%;
     display: block;
    height: 100%;
 }
+.buildi
 .building1-text{
     padding: 10px;
     height: 36px;
@@ -858,7 +854,6 @@ border: 1px solid green;
         font-size: 48px;
     }
     .first-gallery-section,.second-gallery-section{
-    border:1px solid green;
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -867,12 +862,12 @@ border: 1px solid green;
     .building6-box,.building7-box,.building8-box,.building9-box,.building10-box{
         width: 100%;
         margin: 0px;
+        display: block;
     }
     .building2-box,.building3-box,.building4-box,.building5-box,
     .building6-box,.building7-box,.building8-box,.building9-box,.building10-box{
         margin-top: 5%;
     }
-    
 
 }
 @media  screen and (max-width:767px){
@@ -1208,12 +1203,16 @@ margin-top: -10%;
 .fifth-row-heading{
     width: 260px;
 }
+.gallery-pagination-contents{
+    margin-bottom: -20px;
+}
 }
 
  @media  screen and (max-width:320px){
      .pag-num{
          margin: 10px;
      }
+     
     .seventh-row-form-img{
         height: 200px;
     }
