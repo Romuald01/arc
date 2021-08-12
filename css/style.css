@@ -23,11 +23,16 @@
 font-family: TT Hoves;
 font-size: 12px;
 font-style: normal;
-font-weight: 400;
+font-weight: 700;
 line-height: 12px;
 letter-spacing: 0.2em;
 color: black;
 padding: 20px;
+}
+
+.lists-link:hover{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .list-items .lists-link:hover{
@@ -672,6 +677,7 @@ margin-top: -45px;
 .gallery-headings-div{
     border: 1px solid yellow;
     margin-top: 92.14px;
+    width: 300px;
 }
 .gallery-heading-main{
     height: 64px;
@@ -685,10 +691,12 @@ margin-top: -45px;
     display: block;   
     color:rgba(189, 189, 189, 1);
     text-align: left;
+    border:1px solid red;
 }
 
 .gallery-heading-sub{
     height: 64px;
+    border:1px solid pink;
     width: 453px;
     font-family: TT Hoves;
     font-size: 64px;
@@ -701,8 +709,23 @@ margin-top: -45px;
     color: rgba(51, 51, 51, 1);
 
 }
+.first-gallery-section,.second-gallery-section{
+    display: flex;
+    flex-direction: row;
+    
+}
+.building1-box,.building2-box,.building3-box,.building4-box,.building5-box,
+.building6-box,.building7-box,.building8-box,.building9-box,.building10-box{
+    margin: 9px;
+    height: 260px;
+    width: 210px;
+    border: 1px solid green;
+}
 .gallery-container{
     margin-top: 60px;
+}
+.second-gallery-contianer{
+    margin-top: 30px;
 }
 .building1-box{
 height: 260px;
@@ -712,8 +735,63 @@ border: 1px solid green;
 .building1{
     width: 100%;
     display: block;
-
+    height: 140px;
 }
+.building2,.building3,.building4,.building5,
+.building6,.building7,.building8,.building9.building10{
+    width: 100%;
+    display: block;
+   height: 100%;
+}
+.building1-text{
+    padding: 10px;
+    height: 36px;
+    width: 100%;
+    font-family: TT Hoves;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+   
+}
+.gallery-pagination-contents{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    margin-bottom: 120px;
+  
+}
+.pag-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.pag-arrow-left{
+    height: 53px;
+    width: 53px;
+    border-radius: 0px;
+    background: rgba(249, 249, 249, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.pag-arrow-right{
+    height: 53px;
+    width: 53px;
+    border-radius: 0px;
+    background: rgba(249, 249, 249, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
 /* gallery styling ends here */
 
 /* footer styling ends here */
@@ -768,6 +846,34 @@ border: 1px solid green;
     .fourth-row-paragraph-two{
         width: 270px
     }
+    
+    /*  gallery syling */
+    .gallery-headings-div{
+        margin-top: 64px;
+    }
+    .gallery-heading-main{
+        font-size: 48px;
+    }
+    .gallery-heading-sub{
+        font-size: 48px;
+    }
+    .first-gallery-section,.second-gallery-section{
+    border:1px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    }
+    .building1-box,.building2-box,.building3-box,.building4-box,.building5-box,
+    .building6-box,.building7-box,.building8-box,.building9-box,.building10-box{
+        width: 100%;
+        margin: 0px;
+    }
+    .building2-box,.building3-box,.building4-box,.building5-box,
+    .building6-box,.building7-box,.building8-box,.building9-box,.building10-box{
+        margin-top: 5%;
+    }
+    
+
 }
 @media  screen and (max-width:767px){
  /* styling of full overlay nav start here */
@@ -987,6 +1093,18 @@ margin-top: -10%;
           width: 243px;
       }
     }
+    @media screen and (max-width:485px){
+        .gallery-heading-main{
+        width: 340px;
+        font-size: 36px;
+        
+        }
+        .gallery-heading-sub{
+            width: 340px;
+            font-size: 36px;
+            
+            }
+    }
     @media screen and (max-width:326px){
         .seventh-row-form-heading{
             font-size: 24px;
@@ -1059,6 +1177,12 @@ margin-top: -10%;
     .hamburger-icon{
         margin-top: 7% !important;
     }
+    .gallery-heading-main{
+        width: 160px;
+        }
+        .gallery-heading-sub{
+            width: 260px;
+            }
     .third-section-heading{
         font-size: 24px;
 
@@ -1087,6 +1211,9 @@ margin-top: -10%;
 }
 
  @media  screen and (max-width:320px){
+     .pag-num{
+         margin: 10px;
+     }
     .seventh-row-form-img{
         height: 200px;
     }
