@@ -5,10 +5,6 @@
     margin: 0;
 }
 
-.no-scroll{
-    /* overflow: hidden; */
-}
-
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -123,6 +119,7 @@ display: block;
     width: 100%;
     display: block;
     height: 700px;
+    object-fit: cover;
 }
 .nurtown-building-button{
     background: rgba(255, 255, 255, 1);
@@ -161,6 +158,7 @@ display: block;
 width:100%;
 display: block;
 border-radius: 0px;
+object-fit: cover;
 }
 .sect3-second-img{
     padding-top: 30px;
@@ -168,12 +166,14 @@ border-radius: 0px;
 width: 100%;
 border-radius: 0px;
 display: block;
+object-fit: cover;
 }
 .sect3-third-img{
     padding-top: 60px;
     width: 100%;
     display: block;
     height: 380px;
+    object-fit: cover;
 }
 .third-section-text{
     padding-top: 30px;
@@ -291,6 +291,7 @@ margin-bottom: 60px;
     height: 255px;
     width:100%; 
     display: block;
+    object-fit: cover;
 }
 
 .fifth-sect-second-img-div{
@@ -301,6 +302,7 @@ margin-bottom: 60px;
     height: 255px;
     width:100%;
     display: block;
+    object-fit: cover;
 }
 
 .fifth-div-contents{
@@ -309,6 +311,7 @@ margin-bottom: 60px;
  justify-content: center;
  flex-direction: column;
  padding-top: 10%;
+ 
 }
 
 .fifth-sect-first-img-div:hover{
@@ -358,21 +361,60 @@ display: block;
 .fifth-sect-second-row-div{
     margin-top: 30px;
 }
-
 .fifth-sect-second-row-first-img{
 height: 255px;
 width: 100%;
 display: block;
+background-image:url("../images/Rectangle 8.png");
+border:1px solid green;
+background-size: cover;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.fifth-sect-second-row-first-img:hover{
+    background:rgba(44, 44, 44, 0.8);
+}
+.fifth-sect-second-row-first-img:hover .fifth-sect-first-heading{
+    color: white; 
+}
+.fifth-sect-second-row-first-img:hover .fifth-sect-arrow{
+    color: white; 
 }
 .fifth-sect-second-row-second-img{
 height: 255px;
 width: 100%;
 display: block;
+background-image:url("../images/image 17.png");
+border:1px solid green;
+background-size: cover;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+.fifth-sect-second-row-second-img:hover{
+    background:rgba(44, 44, 44, 0.8);
+}
+.fifth-sect-second-row-second-img:hover .fifth-sect-first-heading{
+    color: white; 
+}
+.fifth-sect-second-row-second-img:hover .fifth-sect-arrow{
+    color: white; 
 }
 .fifth-sect-second-row-third-img{
 height: 255px;
 width:100%;
 display:block;
+background-image:url("../images/image 18.png");
+border:1px solid green;
+object-fit: cover;
+}
+.fifth-sect-second-row-third-img:hover{
+    background:rgba(44, 44, 44, 0.8);
+}
+.fifth-sect-second-row-third-img:hover .fifth-sect-first-heading{
+    color: white; 
+}
+.fifth-sect-second-row-third-img:hover .fifth-sect-arrow{
+    color: white; 
 }
 /* styling of 5th row start*/
 /* styling of 6th row start*/
@@ -434,10 +476,8 @@ height: 46px;
 width: 100%;
 background: rgba(243, 243, 243, 1);
 display: block;
-/* margin: 10px; */
 border: none;
 padding: 5px;
-/* margin-left:21px; */
 margin-top: 22px;
 
 }
@@ -460,6 +500,7 @@ margin-top: 22px;
     width: 100%;
     display: block;
     height: 441px;
+    object-fit: cover;
 }
 
 .seventh-row-form .address{
@@ -491,7 +532,6 @@ text-align: left;
 .form-paragraph-div{
     padding-top: 22px;
 }
-
 /* styling of 7th row end*/
 
 /* footer styling start here */
@@ -708,37 +748,133 @@ margin-top: -45px;
 }
 .first-gallery-section,.second-gallery-section{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
+
 .building1-box,.building2-box,.building3-box,.building4-box,.building5-box,
 .building6-box,.building7-box,.building8-box,.building9-box,.building10-box{
     margin: 9px;
-    height: 260px;
+    height: 200px;
     width: 210px;
 }
+
 .gallery-container{
     margin-top: 60px;
+
 }
+
 .second-gallery-contianer{
     margin-top: 30px;
 }
+
 .building1-box{
-height: 260px;
-width: 210px;
+background-image: url("../images/image 19.png");
+background-repeat: no-repeat;
+object-fit: cover;
+display: block;
+border:1px solid green;
+background-size: cover;
 }
-.building1{
-    width: 100%;
+
+.building2-box{
+    background-image: url("../images/Rectangle 23.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
     display: block;
-    height: 140px;
-}
-.building2,.building3,.building4,.building5,
+    border:1px solid green;
+    background-size: cover;
+    }
+.building3-box{
+    background-image: url("../images/Rectangle 24.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: block;
+    border:1px solid green;
+    background-size: cover;
+    }
+    .building4-box{
+        background-image: url("../images/Rectangle 25.png");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
+        border:1px solid green;
+        background-size: cover;
+    }
+    .building5-box{
+        background-image: url("../images/Rectangle 26.png");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
+        border:1px solid green;
+        background-size: cover;
+    }
+    
+.building6-box{
+    background-image: url("../images/Rectangle 27.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: block;
+    border:1px solid green;
+    background-size: cover;
+    }
+.building7-box{
+    background-image: url("../images/Rectangle 28.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: block;
+    border:1px solid green;
+    background-size: cover;
+    }
+    .building8-box{
+        background-image: url("../images/Rectangle 29.png");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
+        border:1px solid green;
+        background-size: cover;
+    }
+    .building9-box{
+        background-image: url("../images/Rectangle 30.png");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
+        border:1px solid green;
+        background-size: cover;
+    }
+    .building10-box{
+        background-image: url("../images/Rectangle 31.png");
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
+        border:1px solid green;
+        background-size: cover;
+    }
+    .building-text-div{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+    }
+    .building-text-div{
+      opacity: 0;
+      visibility: hidden;
+      transition: all 1s;
+    }
+    .description:hover .building-text-div{
+    opacity: 1;
+    visibility: visible;
+    background-color: rgba(94, 92, 92,1);
+    color:#fff;
+    }
+
+.building1,.building2,.building3,.building4,.building5,
 .building6,.building7,.building8,.building9,.building10{
     width: 100%;
     display: block;
    height: 100%;
+   object-fit: cover;
 }
-.buildi
+
 .building1-text{
     padding: 10px;
     height: 36px;
@@ -749,14 +885,13 @@ width: 210px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;
-   
+    color:#fff;
 }
+
 .gallery-pagination-contents{
     display: flex;
     flex-direction: row;
     margin-top: 75px;
-    margin-bottom: 120px;
-  
 }
 .pag-num{
     display: flex;
@@ -787,8 +922,8 @@ width: 210px;
     text-align: center;
     margin: 20px;
 }
-
 /* gallery styling ends here */
+
 
 /* footer styling ends here */
 /*======================= media queries start here ============================*/
@@ -842,6 +977,18 @@ width: 210px;
     .fourth-row-paragraph-two{
         width: 270px
     }
+    .fifth-sect-heading-main{
+        font-size: 14px;
+    }
+    .fifth-sect-heading-sub{
+        font-size: 14px;
+    }
+    .fifth-sect-arrow{
+        font-size: 14px;
+    }
+    .fifth-sect-first-heading{
+        margin-left: -31%;
+    }
     
     /*  gallery syling */
     .gallery-headings-div{
@@ -893,11 +1040,11 @@ width: 210px;
 
 .overlay{
     height: 100%;
-    width: 0;
+    width:0;
     position: fixed;
     z-index:999;
     top: 0;
-    left: 0;
+    left:0;
     background-color:rgba(44, 44, 44, 1);
     background-color:rgba(44, 44, 44, 1);
     overflow-x: hidden;
@@ -935,7 +1082,12 @@ width: 210px;
   .hamburger-div{
       display: none;
   }
-
+  .sect3-first-img,.sect3-second-img,.sect3-third-img{
+      height: 300px;
+  }
+.three-image-section{
+    margin-top: -20%;
+}
 /* styling of full overlay nav stop here */
     .project-heading{
         padding-top: 40px;
