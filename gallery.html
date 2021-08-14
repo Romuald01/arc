@@ -12,39 +12,33 @@
         <title>Architects</title>
     </head>
     <body>
-    <!-- mobile nav start here -->
-    <div id="myNav" class="overlay">
-      <div class="mobilenav-overlay-header">
-        <img src="images/logo-white.png" alt="architects-logo" class="architects-logo" style="margin-top:5%;">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close" class="closeNav">
-        </a>
-      </div>
-      
-      <div class="overlay-content">
-        <a href="#">ГЛАВНАЯ</a>
-        <a href="#">ГАЛЕРЕЯ</a>
-        <a href="#">ПРОЕКТЫ</a>
-        <a href="#">СЕРТИФИКАТЫ</a> 
-        <a href="#">КОНТАКТЫ</a> 
-      </div>
-    </div>
-  <!-- mobile nav stop here -->
     <div class="container">
-        <div class="row header">
-            <div class="navigation col-md-12">
-                
-                    <img src="images/logo.png" alt="architects-logo" class="header-logo">
-                
-                <div class="lists-contents">
-                        <ul class="lists">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Menu -->
+                <div class="menu-holder">
+                    <input type="checkbox" name="" id="check">
+                    <label for="check" class="checkbtn">
+                        <img src="images/icon-hamburger.svg" alt="hamburger icon">
+                    </label>
+                    <div class="logo"><img src="images/logo.png" alt="logo"></div>
+                    <ul class="main-menu">
+                        <ul class="lists-contents">
                             <li class="list-items"><a href="#" class="lists-link">ГЛАВНАЯ</a></li>
                             <li class="list-items"><a href="#" class="lists-link">ГАЛЕРЕЯ</a></li>
                             <li class="list-items"><a href="#" class="lists-link">ПРОЕКТЫ</a></li>
                             <li class="list-items"><a href="#" class="lists-link">СЕРТИФИКАТЫ</a></li>
                             <li class="list-items"><a href="#" class="lists-link">КОНТАКТЫ</a></li>
                         </ul>
+                        <div class="col-sm-12 mini-menu-controller">
+                            <img src="images/logo-white.png" alt="logo" class="logo-white">
+                            <input type="checkbox" name="" id="close">
+                            <label for="check" class="closebtn">
+                               <img src="images/icon-close.svg" alt="">
+                            </label>
+                        </div>
+                    </ul>
                 </div>
-                <img src="images/icon-hamburger.svg" alt="icon-hamburger" onclick="openNav()" class="hamburger-icon" style="margin-top:5%;">
             </div>
         </div>
         <div class="row">
@@ -136,7 +130,7 @@
             </div>
         </div>
         <div class="row gallery-pagination">
-            <div class="col-md-12 gallery-pagination-contents" style="border:1px solid green">
+            <div class="col-md-12 gallery-pagination-contents">
                 <div class="pag-num"> 01 / 06</div>
                 <div class="pag-arrow-left"><img src="images/arrow-left.svg" alt="arrow-left"></div> 
                 <div class="pag-arrow-right pl-2"><img src="images/arrow-right.svg" alt="arrow-right"></div> 

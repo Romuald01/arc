@@ -4,6 +4,86 @@
     padding: 0;
     margin: 0;
 }
+body{
+	font-family: 'TT ', sans-serif;
+}					
+.menu-holder{
+	width: 100%;
+	height: 50px;
+	padding-top: 30px;
+}
+.menu-holder .logo{
+	padding-top: 10px;
+	float: left;
+}
+.menu-holder ul{
+	list-style: none;
+	float: right;
+}
+.main-menu li{
+	letter-spacing: 1px;
+}
+.main-menu li a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+#check, #close{
+	display: none;
+}
+.checkbtn, .closebtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 45px;
+	margin-right: 10px;
+	cursor: pointer;
+	display: none;
+}
+.mini-menu-controller{
+	display: none;
+}
+.menu-holder li{
+	display: inline-block;
+}
+.menu-holder li a{
+	text-transform: uppercase;
+	color: hsl(229, 31%, 21%);
+	padding: 10px 20px;
+}
+.first-layer{
+	margin-top: 5%;
+	position: relative;
+}
+.right-bg{
+	position: absolute;
+	right: -9% !important;
+	bottom: -100px;
+	width: 40%;
+	height: 300px;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background: hsl(231, 69%, 60%);
+	z-index: -1;
+}
+.first-layer h1{
+	font-size: 42px;
+	margin-top: 60px;
+}
+.first-layer p{
+	font-size: 18px;
+}
+.first-layer .bordered-one{
+	background: hsl(231, 69%, 60%);
+	margin-right: 10px;
+}
+.first-layer .bordered-two{
+	background: hsl(229, 31%, 21%);
+	margin-right: 10px;
+}
+.img-right{
+	right: -50px;
+}
 
 .navigation{
     display: flex;
@@ -172,7 +252,7 @@ object-fit: cover;
     padding-top: 60px;
     width: 100%;
     display: block;
-    height: 380px;
+    height: 100%px;
     object-fit: cover;
 }
 .third-section-text{
@@ -366,7 +446,6 @@ height: 255px;
 width: 100%;
 display: block;
 background-image:url("../images/Rectangle 8.png");
-border:1px solid green;
 background-size: cover;
 background-repeat: no-repeat;
 object-fit: cover;
@@ -385,7 +464,6 @@ height: 255px;
 width: 100%;
 display: block;
 background-image:url("../images/image 17.png");
-border:1px solid green;
 background-size: cover;
 background-repeat: no-repeat;
 object-fit: cover;
@@ -404,7 +482,6 @@ height: 255px;
 width:100%;
 display:block;
 background-image:url("../images/image 18.png");
-border:1px solid green;
 object-fit: cover;
 }
 .fifth-sect-second-row-third-img:hover{
@@ -772,7 +849,6 @@ background-image: url("../images/image 19.png");
 background-repeat: no-repeat;
 object-fit: cover;
 display: block;
-border:1px solid green;
 background-size: cover;
 }
 
@@ -781,7 +857,6 @@ background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
     display: block;
-    border:1px solid green;
     background-size: cover;
     }
 .building3-box{
@@ -789,7 +864,6 @@ background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
     display: block;
-    border:1px solid green;
     background-size: cover;
     }
     .building4-box{
@@ -797,7 +871,6 @@ background-size: cover;
         background-repeat: no-repeat;
         object-fit: cover;
         display: block;
-        border:1px solid green;
         background-size: cover;
     }
     .building5-box{
@@ -805,7 +878,6 @@ background-size: cover;
         background-repeat: no-repeat;
         object-fit: cover;
         display: block;
-        border:1px solid green;
         background-size: cover;
     }
     
@@ -814,7 +886,6 @@ background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
     display: block;
-    border:1px solid green;
     background-size: cover;
     }
 .building7-box{
@@ -822,7 +893,6 @@ background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
     display: block;
-    border:1px solid green;
     background-size: cover;
     }
     .building8-box{
@@ -830,7 +900,6 @@ background-size: cover;
         background-repeat: no-repeat;
         object-fit: cover;
         display: block;
-        border:1px solid green;
         background-size: cover;
     }
     .building9-box{
@@ -838,7 +907,6 @@ background-size: cover;
         background-repeat: no-repeat;
         object-fit: cover;
         display: block;
-        border:1px solid green;
         background-size: cover;
     }
     .building10-box{
@@ -846,7 +914,6 @@ background-size: cover;
         background-repeat: no-repeat;
         object-fit: cover;
         display: block;
-        border:1px solid green;
         background-size: cover;
     }
     .building-text-div{
@@ -1019,71 +1086,80 @@ background-size: cover;
 }
 @media  screen and (max-width:767px){
  /* styling of full overlay nav start here */
- .architects-logo{
-    position: absolute;
-    left: 5%;
-    height:60px;
-    /* /* top: -3%; */
-}
-.hamburger-icon{
-    top:3%;
-    display:block;
-    position:absolute;
-    right:7%;
-}
-#myNav{
-    display: block;
-}
-.lists{
-    display:none;
+	.checkbtn, .closebtn{
+		display: block;
+	}
+	.closebtn{
+		position: absolute;
+		top: -10px;
+		right: 20px;
+		font-size: 20px;
+	}
+	.mini-menu-controller{
+		display: block;
+		position: absolute;
+		top: 40px;
+		text-align: left;
+		padding-left: 30px;
+        /* display: none ; */
+	}
+	.main-menu{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgb(109, 105, 105);
+		left: -120%;
+		text-align: center;
+		transition: all .5s;
+		margin-top: -30px;
+		padding-top: 100px;
+		z-index: 2;
+	}
+    .menu-holder ul{
+        float:left;
+        /* margin-top: 10%; */
+    }
+    .list-items .lists-link{
+        color:#fff;
+    }
+    .lists-contents{
+       margin-top: 0%;
+    }
+    .logo-white{
+        height: 50px;
+    }
+	
+	.main-menu li{
+		display: block !important;
+		margin: 10px 30px;
+		padding: 10px 0;
+		/* border-bottom: 1px solid lightgray; */
+	}
+	.main-menu li:nth-child(4){
+		border-bottom: none;
+	}
+	.main-menu .btn{
+		background: unset;
+		margin-left: 0;
+		border: 2px solid white;
+		width: 100% !important;
+	}
+	.main-menu li a{
+		color: #fff;
+	}
+	#check:checked ~ .main-menu{
+		left: 0px;
+	}
+.gallery-heading-sub{
+    margin-top: -5%;
 }
 
-.overlay{
+.sect3-first-img,.sect3-second-img{
     height: 100%;
-    width:0;
-    position: fixed;
-    z-index:999;
-    top: 0;
-    left:0;
-    background-color:rgba(44, 44, 44, 1);
-    background-color:rgba(44, 44, 44, 1);
-    overflow-x: hidden;
-    transition: 0.5s;;
-  } 
-  
-  .overlay-content {
-    position: relative;
-    top: 33%;
-    width: 30%;
-    text-align: center;
-    margin-top:-36px;
-    z-index: 99999;
-  }
-  
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 18px;
-    color: hsl(0, 0%, 100%);
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  .closeNav{
-    position: absolute;
-    top: 8%;
-    right: 45px;
-  }
-
-  .hamburger-div{
-      display: none;
-  }
-  .sect3-first-img,.sect3-second-img,.sect3-third-img{
-      height: 300px;
+}
+  .sect3-third-img{
+      margin-top: -6%;
+      height: 87%;
   }
 .three-image-section{
     margin-top: -20%;
@@ -1173,6 +1249,9 @@ margin-top: -10%;
     position:absolute;
     top:57px;
     left:10%;
+}
+.gallery-pagination-contents{
+    width: 600px;
 }
 }
 @media screen and (max-width:600px){
@@ -1275,9 +1354,10 @@ margin-top: -10%;
         width: 147px;
         height: 37px;
     }
-   .overlay-content{
-    top: 27%;
-   }
+    .sect3-third-img{
+        margin-top: -7%;
+    }
+   
     .num1,.num2{
         font-size: 60px;
     }
@@ -1323,6 +1403,9 @@ margin-top: -10%;
     }
     .hamburger-icon{
         margin-top: 7% !important;
+    }
+    .sect3-third-img{
+        margin-top: -10%;
     }
     .gallery-heading-main{
         width: 160px;
