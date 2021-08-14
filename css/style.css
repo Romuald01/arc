@@ -1153,6 +1153,10 @@ background-size: cover;
 .gallery-heading-sub{
     margin-top: -5%;
 }
+.gallery-pagination-contents{
+    margin-top: 30px;
+    margin-bottom: -80px;
+}
 
 .sect3-first-img,.sect3-second-img{
     height: 100%;
@@ -1437,9 +1441,6 @@ margin-top: -10%;
 }
 .fifth-row-heading{
     width: 260px;
-}
-.gallery-pagination-contents{
-    margin-bottom: -20px;
 }
 }
 
